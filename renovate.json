@@ -3,7 +3,7 @@
   "extends": [
     "config:base",
     "config:recommended",
-    "dependencyDashboard"
+    ":dependencyDashboard"
   ],
   "automerge": true,
   "includeForks": true,
