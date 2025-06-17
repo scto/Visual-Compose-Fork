@@ -1,6 +1,11 @@
 [versions]
-agp = "8.7.3"
+#<<<<<<< dependabot/gradle/main/kotlin-2.1.10
+#agp = "8.7.3"
 kotlin = "2.1.10"
+#=======
+agp = "8.8.0"
+#kotlin = "2.1.0"
+#>>>>>>> main
 
 android-jvm = "17"
 android-compileSdk = "35"
@@ -21,7 +26,7 @@ compose-viewmodel = "2.8.7"
 kotlin-serialization-json = "1.8.0"
 
 coil-kt = "3.0.4"
-koin = "4.0.1"
+koin = "4.0.2"
 
 ksp = "2.1.0-1.0.29"
 
@@ -38,9 +43,9 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 # Compose
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
-visualcompose-application = { id = "visualcompose.application", version = "unspecified" }
-visualcompose-library = { id = "visualcompose.library", version = "unspecified" }
-visualcompose-compose = { id = "visualcompose.compose", version = "unspecified" }
+#visualcompose-application = { id = "visualcompose.application", version = "unspecified" }
+#visualcompose-library = { id = "visualcompose.library", version = "unspecified" }
+#visualcompose-compose = { id = "visualcompose.compose", version = "unspecified" }
 
 [libraries]
 

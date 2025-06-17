@@ -2,8 +2,9 @@ name: Update Gradle Wrapper
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # every 30 minutes
-  workflow_dispatch:
+    - cron: '0 18 * * 1' # At 18:00 on Monday.
+    #- cron: '*/30 * * * *' # every 30 minutes
+  workflow_dispatch: # on button click
 
 jobs:
   update-gradle-wrapper:
