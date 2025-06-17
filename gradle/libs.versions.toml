@@ -25,7 +25,7 @@ compose-activity = "1.9.3"
 compose-navigation = "2.8.5"
 compose-material-motion = "2.0.1"
 compose-material-icons = "1.7.6"
-compose-viewmodel = "2.8.7"
+compose-viewmodel = "2.9.1"
 
 kotlin-serialization-json = "1.8.1"
 
