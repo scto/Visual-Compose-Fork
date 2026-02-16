@@ -1,38 +1,27 @@
 [versions]
-#<<<<<<< dependabot/gradle/main/kotlin-2.1.10
-#agp = "8.7.3"
-#kotlin = "2.1.10"
-#=======
 agp = "8.8.0"
-#<<<<<<< renovate/kotlin-and-ksp
-kotlin = "2.1.21"
-#=======
-#kotlin = "2.1.0"
-#>>>>>>> main
-#>>>>>>> main
-
+kotlin = "2.1.0"
 android-jvm = "17"
 android-compileSdk = "35"
 android-targetSdk = "35"
 android-minSdk = "26"
 
 androidx-core-splashscreen = "1.0.1"
-androidx-core-ktx = "1.15.0"
+androidx-core-ktx = "1.17.0"
 androidx-lifecycle-runtime-ktx = "2.8.7"
-
 compose-bom = "2026.02.00"  
-compose-activity = "1.9.3"
+compose-activity = "1.12.4"
 compose-navigation = "2.8.5"
 compose-material-motion = "2.0.1"
-compose-material-icons = "1.7.6"
+compose-material-icons = "1.7.8"
 compose-viewmodel = "2.8.7"
 
-kotlin-serialization-json = "1.8.1"
+kotlin-serialization-json = "1.10.0"
 
-coil-kt = "3.0.4"
+coil-kt = "3.3.0"
 koin = "4.0.2"
 
-ksp = "2.1.21-2.0.2"
+ksp = "2.3.5"
 
 [plugins]
 # Android Gradle Plugin
