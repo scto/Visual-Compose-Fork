@@ -5,7 +5,7 @@
 #=======
 agp = "8.8.0"
 #<<<<<<< renovate/kotlin-and-ksp
-kotlin = "2.1.21"
+kotlin = "2.3.10"
 #=======
 #kotlin = "2.1.0"
 #>>>>>>> main
@@ -27,12 +27,12 @@ compose-material-motion = "2.0.1"
 compose-material-icons = "1.7.6"
 compose-viewmodel = "2.8.7"
 
-kotlin-serialization-json = "1.8.1"
+kotlin-serialization-json = "1.10.0"
 
 coil-kt = "3.0.4"
 koin = "4.0.2"
 
-ksp = "2.1.21-2.0.2"
+ksp = "2.3.5"
 
 [plugins]
 # Android Gradle Plugin
